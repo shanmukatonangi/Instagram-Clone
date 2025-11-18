@@ -1,0 +1,106 @@
+#signuppage{
+    height: 97vh;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px
+
+}
+
+
+#details{
+    height: 600px;
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items:center;
+    gap: 2%;
+}
+
+#login{
+    height: 80px;
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#login p{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+
+#facebook{
+    height: 35%;
+    width: 90%;
+    
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+#user-details{
+    height: 60%;
+    width: 90%;
+     border: 1px solid #dbdbdb;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 2px;
+}
+
+#facebook h2{
+    font-size: 16px;
+    font-family:sans-serif;
+    color: #929292;
+    font-weight: lighter;
+    width: 80%;
+    text-align: center;
+}
+
+#facebook button{
+    background-color: #4c5bfa;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+} 
+
+
+#user-details input{
+    background-color: #fafafa;
+    border:1px solid #e8e6e6;
+    border-radius: 2px;
+    width: 80%;
+    height: 30px;
+    color: #fffefe;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#user-details p{
+    font-size: 13px;
+    color: #737373;
+    width: 80%;
+    text-align: center;
+    font-weight: lighter;
+    color: #929292;
+}
+
+#user-details button{
+     background-color: #4c5bfa;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+}
