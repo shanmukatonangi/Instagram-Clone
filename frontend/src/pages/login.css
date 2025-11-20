@@ -1,0 +1,113 @@
+#login{
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+
+
+#banner{
+    height: 80%;
+    width: 30%;
+    
+    background-image: url("src/assets/landing.png");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#details-login{
+    height: 600px;
+    width: 350px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items:center;
+    gap: 2%;
+}
+#facebook{
+    height: 15%;
+    width: 90%;
+    
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+#user-details-login{
+    height: 30%;
+    width: 90%;
+    
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 9px;
+}
+
+#facebook h2{
+    font-size: 16px;
+    font-family:sans-serif;
+    color: #929292;
+    font-weight: lighter;
+    width: 80%;
+    text-align: center;
+}
+
+#facebook button{
+    background-color: #818dfb;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+} 
+
+
+#user-details-login input{
+    background-color: #fafafa;
+    border:1px solid #e8e6e6;
+    border-radius: 2px;
+    width: 80%;
+    height: 30px;
+    color: #fffefe;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#user-details-login p{
+    font-size: 13px;
+    color: #737373;
+    width: 80%;
+    text-align: center;
+    font-weight: lighter;
+    color: #929292;
+}
+
+#user-details-login button{
+     background-color: #818dfb;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    color: white;
+    font-weight: bold;
+}
+#login-det{
+    height: 80px;
+    width: 350px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#login-det p{
+    font-size: 13px;
+    font-family: sans-serif;
+}
