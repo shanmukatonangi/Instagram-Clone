@@ -111,3 +111,18 @@
     font-size: 13px;
     font-family: sans-serif;
 }
+
+.icon-large {
+  font-size: 1000px;
+  color: gold;
+}
+
+.icon-medium {
+  font-size: 30px;
+  color: silver;
+}
+
+.icon-small {
+  font-size: 20px;
+  color: gray;
+}

@@ -1,6 +1,8 @@
 import React from 'react'
 import "./login.css"
 
+
+
 const Login = () => {
   return (
     <div id="login">
@@ -8,7 +10,6 @@ const Login = () => {
         <div id='details-login'>
             <div id='facebook'>
                 <img src='src/assets/OIP.jpeg' style={{height:"70px"}} />
-               
                
             </div>
             <div id='user-details-login'>
