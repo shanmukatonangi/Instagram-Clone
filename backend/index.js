@@ -53,6 +53,13 @@ if(req.body.password == user.password){
 
 })
 
+app.get("/profile-page/:username",async(req,res)=>{
+    let username=req.params.username;
+    let user=await User.findOne({username:username})
+    res.json(user);
+
+})
+
 app.get("/",(req,res)=>{
     res.send("Hello World");
 })

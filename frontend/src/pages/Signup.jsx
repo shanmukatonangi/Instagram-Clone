@@ -22,6 +22,7 @@ const Signup = () => {
         }
 
         axios.post('http://localhost:8888/register',userdetails)
+        localStorage.setItem("username",username.current.value)
         navigate("/login")
 
         } catch (error) {

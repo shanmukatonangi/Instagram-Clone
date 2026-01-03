@@ -24,6 +24,7 @@ if(login.data.message=="User with email not found"){
     alert("Email not found")
 }
 else if (login.data.message="Success"){
+    localStorage.setItem("useremail",email.current.value)
     navigate("/home")
 }
 
