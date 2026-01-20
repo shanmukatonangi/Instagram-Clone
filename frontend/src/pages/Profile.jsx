@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import { useParams } from 'react-router-dom';
 
 const Profile = () => {
   //   let user= {
@@ -44,8 +45,10 @@ const Profile = () => {
   // }
 
  
-let username=localStorage.getItem("username")
+// let username=localStorage.getItem("username")
+let {username}= useParams();
   let [user,setUser]=useState({})
+ 
 
   async function fetchProfile(){
  let res=await axios.get(`http://localhost:8888/profile-page/${username}`)
